@@ -18,7 +18,7 @@
         "deploy-dc": "npx hardhat deploy --network local --tags DC",
         "deploy-tweet": "npx hardhat deploy --network local --tags Tweet",
         "gas": "REPORT_GAS=true npx hardhat test",
-        "test": "npx hardhat test",
+        "test": "npx hardhat test --network local",
         "sdoc": "cd ./scripts && ./sdoc.sh"
     },
     "devDependencies": {
