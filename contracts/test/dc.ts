@@ -39,7 +39,7 @@ describe('DC', function () {
   })
 
   it('DC-001 DC can  be deployed', async function (this: Context) {
-    expect(this.dc.address).to.equal('0x8A791620dd6260079BF849Dc5567aDC3F2FdC318')
+    expect(this.dc.address).to.equal('0x5FbDB2315678afecb367f032d93F642f64180aa3')
   })
 
   it('DC-002 domain can be registered', async function (this: Context) {
